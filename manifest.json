@@ -3,6 +3,8 @@
 	"name": "巴哈天天簽到",
 	"description": "在巴哈任何頁面自動簽到",
 	"version": "0.1.0",
+	"author": "FlandreDaisuki",
+	"homepage_url": "https://github.com/FlandreDaisuki/Bahamut-Daily",
 	"icons": {
 		"32": "icons/32.png",
 		"64": "icons/64.png",
