@@ -4,6 +4,12 @@
 
 本擴充套件只要到 `*://*.gamer.com.tw/*` 的頁面就會自動簽到了
 
+## 安裝方法
+
+Firefox：到 [releases](https://github.com/FlandreDaisuki/Bahamut-Daily/releases) 頁面在下載 xpi
+
+Chrome：到 [releases](https://github.com/FlandreDaisuki/Bahamut-Daily/releases) 頁面在下載 crx，打開 chrome://extensions/ 頁面將 crx 檔拉進去
+
 ## License
 
 MIT, Copyright (c) 2018 FlandreDaisuki
