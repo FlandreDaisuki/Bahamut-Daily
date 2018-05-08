@@ -1,0 +1,28 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "webextensions": true
+  },
+  "globals": {
+    "axios": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ],
+  "rules": {
+    "no-console": "off",
+    "object-curly-spacing": ["error", "always"],
+    "arrow-spacing": "error",
+    "max-len": "off",
+    "space-infix-ops": "error",
+    "indent": ["error", 2],
+    "no-constant-condition": "off",
+    "require-jsdoc": "off"
+  }
+}

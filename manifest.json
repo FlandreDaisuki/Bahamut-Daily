@@ -1,0 +1,38 @@
+{
+	"manifest_version": 2,
+	"name": "巴哈天天簽到",
+	"description": "在巴哈任何頁面自動簽到",
+	"version": "0.1.0",
+	"icons": {
+		"32": "icons/32.png",
+		"64": "icons/64.png",
+		"128": "icons/128.png"
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"content_scripts": [{
+		"matches": [
+			"*://*.gamer.com.tw/*"
+		],
+		"js": [
+			"axios.min.js",
+			"content.js"
+		]
+	}],
+	"permissions": [
+		"*://*.gamer.com.tw/*",
+		"tabs",
+		"webRequest",
+		"webRequestBlocking"
+	],
+	"browser_action": {
+		"default_icon": {
+			"32": "icons/32.png",
+			"64": "icons/64.png",
+			"128": "icons/128.png"
+		}
+	}
+}
