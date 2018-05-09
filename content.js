@@ -13,7 +13,10 @@ async function checkSignedIn() {
       'Content-Type': 'application/x-www-form-urlencoded',
     },
   });
-  return !!response.data.signin;
+  // signin: -1, 未登入
+  // signin:  0, 未簽到
+  // signin:  1, 已簽到
+  return response.data.signin > 0;
 }
 
 async function getToken() {
