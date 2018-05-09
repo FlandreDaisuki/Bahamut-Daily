@@ -7,6 +7,7 @@
 // @grant        GM_xmlhttpRequest
 // @connect      *.gamer.com.tw
 // @version      0.1.2
+// @noframes
 
 // @author       FlandreDaisuki
 // @homepageURL  https://github.com/FlandreDaisuki/Bahamut-Daily
