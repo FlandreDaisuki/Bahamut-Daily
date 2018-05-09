@@ -6,7 +6,7 @@
 
 ## 安裝方法
 
-Firefox：到 [releases](https://github.com/FlandreDaisuki/Bahamut-Daily/releases) 頁面在下載 xpi
+Firefox：到 [releases](https://github.com/FlandreDaisuki/Bahamut-Daily/releases) 頁面在下載 xpi，拉進火狐任一頁面
 
 Chrome：到 [releases](https://github.com/FlandreDaisuki/Bahamut-Daily/releases) 頁面在下載 source code (zip) 並解壓縮資料夾，打開 chrome://extensions/ 頁面，啟用 **開發人員模式**，點 **載入未封裝項目**，選剛剛解壓縮的資料夾 ¯\\_(ツ)\_/¯ ~~沒錢交保護費給 Chrome~~
 
