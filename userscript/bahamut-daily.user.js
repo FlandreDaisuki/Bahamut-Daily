@@ -22,7 +22,6 @@
 })();
 
 async function ajax(details) {
-  // eslint-disable-next-line camelcase
   const xhr = window['GM_xmlhttpRequest'] || (window['GM'] ? GM.xmlHttpRequest : null);
   if (!xhr) {
     return Promise.reject();
@@ -49,7 +48,6 @@ async function checkSignedIn() {
       'Cookie': document.cookie,
     },
   }).catch(console.error);
-  console.info('test', JSON.parse(response.responseText));
   // signin: -1, 未登入
   // signin:  0, 未簽到
   // signin:  1, 已簽到
