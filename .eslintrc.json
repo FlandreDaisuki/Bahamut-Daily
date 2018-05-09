@@ -2,7 +2,8 @@
   "env": {
     "es6": true,
     "browser": true,
-    "webextensions": true
+    "webextensions": true,
+    "greasemonkey": true
   },
   "globals": {
     "axios": true
