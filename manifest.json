@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "巴哈天天簽到",
 	"description": "在巴哈任何頁面自動簽到",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "FlandreDaisuki",
 	"homepage_url": "https://github.com/FlandreDaisuki/Bahamut-Daily",
 	"icons": {

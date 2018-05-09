@@ -8,7 +8,7 @@
 
 Firefox：到 [releases](https://github.com/FlandreDaisuki/Bahamut-Daily/releases) 頁面在下載 xpi
 
-Chrome：到 [releases](https://github.com/FlandreDaisuki/Bahamut-Daily/releases) 頁面在下載 crx，打開 chrome://extensions/ 頁面將 crx 檔拉進去
+Chrome：到 [releases](https://github.com/FlandreDaisuki/Bahamut-Daily/releases) 頁面在下載 source code (zip) 並解壓縮資料夾，打開 chrome://extensions/ 頁面，啟用 **開發人員模式**，點 **載入未封裝項目**，選剛剛解壓縮的資料夾 ¯\\_(ツ)\_/¯ ~~沒錢交保護費給 Chrome~~
 
 ## License
 
