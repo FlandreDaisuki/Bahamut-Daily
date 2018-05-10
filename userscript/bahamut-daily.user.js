@@ -5,8 +5,8 @@
 // @match        *://*.gamer.com.tw/*
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
-// @connect      *.gamer.com.tw
-// @version      0.1.2
+// @connect      gamer.com.tw
+// @version      0.1.2.1
 // @noframes
 
 // @author       FlandreDaisuki
