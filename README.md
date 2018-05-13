@@ -4,6 +4,14 @@
 
 本擴充套件只要到 `*://*.gamer.com.tw/*` 的頁面就會自動簽到了
 
+## Youtube 預覽
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=9o7dIdtaNIQ" target="_blank">
+    <img src="https://img.youtube.com/vi/9o7dIdtaNIQ/0.jpg" alt="預覽"/>
+  </a>
+</p>
+
 ## 安裝方法(webextension)
 
 Firefox：到 [releases](https://github.com/FlandreDaisuki/Bahamut-Daily/releases) 頁面在下載 xpi，拉進火狐任一頁面

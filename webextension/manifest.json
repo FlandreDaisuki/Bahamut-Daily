@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "巴哈天天簽到",
 	"description": "在巴哈任何頁面自動簽到",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"author": "FlandreDaisuki",
 	"homepage_url": "https://github.com/FlandreDaisuki/Bahamut-Daily",
 	"icons": {
@@ -19,7 +19,11 @@
 		"matches": [
 			"*://*.gamer.com.tw/*"
 		],
+		"exclude_matches": [
+			"*://user.gamer.com.tw/*"
+		],
 		"js": [
+			"jquery-3.3.1.min.js",
 			"axios.min.js",
 			"content.js"
 		]
@@ -27,6 +31,7 @@
 	"permissions": [
 		"*://*.gamer.com.tw/*",
 		"tabs",
+		"storage",
 		"webRequest",
 		"webRequestBlocking"
 	],
