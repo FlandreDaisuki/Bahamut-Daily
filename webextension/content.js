@@ -14,18 +14,23 @@ const store = {
 };
 
 (async () => {
+  const BAHAID = document.cookie.replace(/.*\bBAHAID=(\w+)\b.*/ig, '$1');
+  if (!BAHAID) {
+    // not logged in
+    return;
+  }
   const today = (new Date()).toLocaleDateString();
-  const signinDay = (await store.get('sign-in-day'));
+  const signinDay = await store.get(BAHAID);
   if (signinDay === today) {
     // check and early return to save bandwidth to bahamut
     return;
   } else {
     if (await checkSignedIn()) {
-      await store.set('sign-in-day', today);
+      await store.set(BAHAID, today);
     } else {
       const result = await doSignIn();
       if (result.message === '簽到成功') {
-        await store.set('sign-in-day', today);
+        await store.set(BAHAID, today);
         popupAwardTable($.noConflict(true), result);
       }
     }
