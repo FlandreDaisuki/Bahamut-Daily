@@ -13,7 +13,7 @@
 // @grant        GM_xmlhttpRequest
 // @require      https://code.jquery.com/jquery-3.3.1.min.js
 // @connect      gamer.com.tw
-// @version      0.1.3
+// @version      0.1.4
 // @noframes
 
 // @author       FlandreDaisuki
@@ -124,6 +124,10 @@ async function doSignIn() {
   }).catch(console.error);
 
   const result = JSON.parse(response.responseText);
+
+  // prevent remote script injection
+  result.nowd = Number(result.nowd);
+  result.days = Number(result.days);
 
   console.info(result.message);
 

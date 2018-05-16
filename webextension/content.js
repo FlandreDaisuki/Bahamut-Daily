@@ -73,6 +73,10 @@ async function doSignIn() {
 
   const result = response.data;
 
+  // prevent remote script injection
+  result.nowd = Number(result.nowd);
+  result.days = Number(result.days);
+
   console.info(result.message);
 
   return result;
