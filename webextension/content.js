@@ -99,10 +99,10 @@ function popupAwardTable($, { nowd, days }) {
       }, 100 * i);
     });
 
-    $('#🗓, .popoup-close').on('click', (event) => {
-      $('#🗓').fadeOut(600);
+    $('#📅, .popoup-close').on('click', (event) => {
+      $('#📅').fadeOut(600);
       setTimeout(() => {
-        $('#🗓').remove();
+        $('#📅').remove();
       }, 1000);
       return false;
     });
@@ -155,7 +155,7 @@ function popupAwardTable($, { nowd, days }) {
     }, '');
 
   $('body').append(`
-<div id="🗓" class="popup-wrap fade is-show">
+<div id="📅" class="popup-wrap fade is-show">
   <div class="popup-container">
     <div class="popup-content">
       <div class="modal">
@@ -216,7 +216,7 @@ function popupAwardTable($, { nowd, days }) {
 
   $('head').append(`
 <style>
-#🗓.popup-wrap {
+#📅.popup-wrap {
   position: fixed;
   top: 0;
   left: 0;
@@ -228,13 +228,13 @@ function popupAwardTable($, { nowd, days }) {
   overflow-x: hidden;
   background-color: #000A;
 }
-#🗓 .popup-container::before {
+#📅 .popup-container::before {
   content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
-#🗓 .popup-container {
+#📅 .popup-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -243,7 +243,7 @@ function popupAwardTable($, { nowd, days }) {
   padding: 0 8px;
   box-sizing: border-box;
 }
-#🗓 .popup-content {
+#📅 .popup-content {
   position: relative;
   z-index: 10010;
   display: inline-block;
@@ -252,7 +252,7 @@ function popupAwardTable($, { nowd, days }) {
   text-align: left;
   vertical-align: middle;
 }
-#🗓 .modal {
+#📅 .modal {
   position: relative;
   margin: 20px auto;
   width: 100%;
@@ -261,10 +261,10 @@ function popupAwardTable($, { nowd, days }) {
   border-radius: 8px;
   overflow: hidden;
 }
-#🗓 .daily-header {
+#📅 .daily-header {
   padding-top: 15px;
 }
-#🗓 .daily-title {
+#📅 .daily-title {
   display: block;
   margin: 0 auto 15px;
   padding: 12px 0 0;
@@ -274,19 +274,19 @@ function popupAwardTable($, { nowd, days }) {
   text-align: center;
   box-sizing: border-box;
 }
-#🗓 .daily-title__text {
+#📅 .daily-title__text {
   font-size: 24px;
   line-height: 1;
   color: #7B4901;
 }
-#🗓 .daily-progress-wrap {
+#📅 .daily-progress-wrap {
   padding: 80px 35px 15px;
 }
-#🗓 .reword-progress-wrap {
+#📅 .reword-progress-wrap {
   margin-bottom: 10px;
   padding: 0 20px 0 0;
 }
-#🗓 .reword-progress {
+#📅 .reword-progress {
   position: relative;
   width: 100%;
   height: 3px;
@@ -294,7 +294,7 @@ function popupAwardTable($, { nowd, days }) {
   background-color: #D9D9D9;
   box-sizing: border-box;
 }
-#🗓 .reword-progress-node {
+#📅 .reword-progress-node {
   position: absolute;
   top: 0;
   left: calc(25% - 8px);
@@ -307,40 +307,40 @@ function popupAwardTable($, { nowd, days }) {
   transition: border 250ms ease-in;
   box-sizing: content-box;
 }
-#🗓 .reword-content {
+#📅 .reword-content {
   position: absolute;
   top: -65px;
   right: -15px;
 }
-#🗓 .daily-img.passthrough-effect {
+#📅 .daily-img.passthrough-effect {
   transform: rotateY(-1080deg);
   transform-origin: center center;
 }
-#🗓 .daily-img {
+#📅 .daily-img {
   margin: 0 auto 5px;
   width: 40px;
   height: 40px;
   background: transparent center center no-repeat;
   transition: transform 1s cubic-bezier(.17,.84,.44,1);
 }
-#🗓 .daily-num {
+#📅 .daily-num {
   text-align: center;
 }
-#🗓 .reword-progress-node.sec {
+#📅 .reword-progress-node.sec {
   left: calc(50% - 8px);
 }
-#🗓 .reword-progress-node.third {
+#📅 .reword-progress-node.third {
   left: calc(75% - 8px);
 }
-#🗓 .reword-progress-node.fourth {
+#📅 .reword-progress-node.fourth {
   left: calc(100% - 8px);
 }
-#🗓 .reword-progress-bar {
+#📅 .reword-progress-bar {
   width: 0;
   height: 100%;
   background-color: #FFC849;
 }
-#🗓 .row {
+#📅 .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -348,33 +348,33 @@ function popupAwardTable($, { nowd, days }) {
   flex-wrap: wrap;
   box-sizing: border-box;
 }
-#🗓 [class*="grid-7"] > .col {
+#📅 [class*="grid-7"] > .col {
   -ms-flex-preferred-size: 14.28571%;
   flex-basis: 14.28571%;
   max-width: 14.28571%;
 }
-#🗓 .bonus-month__content {
+#📅 .bonus-month__content {
   margin-bottom: 5px;
   padding: 15px 15px 0;
   background-color: #FFEEB3;
 }
-#🗓 .bonus-month-title {
+#📅 .bonus-month-title {
   margin-bottom: 10px;
   font-size: 15px;
   line-height: 1;
   color: #8C6631;
 }
-#🗓 [class*="col-"][class*="-padding"] {
+#📅 [class*="col-"][class*="-padding"] {
   padding: 0 8px;
 }
-#🗓 [class*="col-"] {
+#📅 [class*="col-"] {
   position: relative;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
   box-sizing: border-box;
 }
-#🗓 .bonus-day {
+#📅 .bonus-day {
   position: relative;
   margin-bottom: 16px;
   padding: 6px 4px;
@@ -383,11 +383,11 @@ function popupAwardTable($, { nowd, days }) {
   border-radius: 5px;
   box-sizing: border-box;
 }
-#🗓 .bonus-day.is-active {
+#📅 .bonus-day.is-active {
   border: 3px solid #64A6AE;
   transition: all 300ms ease-in;
 }
-#🗓 .daily-check {
+#📅 .daily-check {
   position: absolute;
   top: 0;
   right: 0;
@@ -401,19 +401,19 @@ function popupAwardTable($, { nowd, days }) {
   -webkit-transform: translate(0, -12%);
   transform: translate(0, -12%);
 }
-#🗓 .bonus-day.is-active .daily-check {
+#📅 .bonus-day.is-active .daily-check {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-#🗓 .modal__footer {
+#📅 .modal__footer {
   padding: 15px;
 }
-#🗓 .modal-ctrl {
+#📅 .modal-ctrl {
   text-align: center;
 }
-#🗓 .popoup-ctrl-btn {
+#📅 .popoup-ctrl-btn {
   display: inline-block;
   padding: 15px 40px;
   background-color: #039CAD;
